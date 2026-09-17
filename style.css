@@ -1,0 +1,84 @@
+body{
+    background-image: url('background img/backimg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+    height: 100vh;
+    margin: 0 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    position: absolute;
+    top: 20px;
+    margin: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.main{
+    
+    background-color: rgba(255, 254, 254, 0.753);
+    padding: 20px;
+    height: 500px;
+    width: 320px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+#display{
+    background-color: rgba(255, 255, 255, 0.479);
+    width: 100%;
+    height: 75px;
+    margin: 5px 0px 20px 0px;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    font-size: 30px;
+    text-align: right;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.buttons{
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+button{
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+button:hover{
+    background-color:  rgba(34, 114, 235, 0.116);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+.equal{
+    background-color: rgba(34, 114, 235, 0.76);
+    color: white;
+    font-weight: bold;
+    grid-column: span 4;
+}
+.equal:hover{
+    background-color:  rgba(34, 115, 235, 1);
+    font-weight: bolder;
+}
+.number{
+    background-color: rgba(34, 114, 235, 0.76);
+    color: white;
+    
+}
+.number:hover{
+    background-color:  rgba(34, 115, 235, 1);
+}
